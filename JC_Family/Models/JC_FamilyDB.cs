@@ -19,7 +19,7 @@ namespace JC_Family.Models
     
         public JC_FamilyDB() : base("name=JC_FamilyDB")
         {
-            Database.SetInitializer(new JCFamilyDbInitializer());
+            //Database.SetInitializer(new JCFamilyDbInitializer());
         }
 
         public System.Data.Entity.DbSet<JC_Family.Models.Photo> Photos { get; set; }

@@ -306,6 +306,7 @@
     <Content Include="Views\PhotosManager\Details.cshtml" />
     <Content Include="Views\PhotosManager\Edit.cshtml" />
     <Content Include="Views\PhotosManager\Index.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

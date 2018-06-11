@@ -29,5 +29,11 @@ namespace JC_Family.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<JC_Family.Models.Photo> Photos { get; set; }
+
+        public System.Data.Entity.DbSet<JC_Family.Models.Creater> Creaters { get; set; }
+
+        public System.Data.Entity.DbSet<JC_Family.Models.Genre> Genres { get; set; }
     }
 }
