@@ -20,7 +20,7 @@ namespace JC_Family.Controllers
             var photos = db.Photos.Include(p => p.Creater).Include(p => p.Genre);
             return View(photos.ToList());
         }
-
+            
         // GET: PhotosManager/Details/5
         public ActionResult Details(int? id)
         {
