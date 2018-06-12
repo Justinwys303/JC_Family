@@ -37,6 +37,7 @@ namespace JC_Family.Controllers
         }
 
         // GET: PhotosManager/Create
+        [Authorize]
         public ActionResult Create()
         {
             ViewBag.CreaterId = new SelectList(db.Creaters, "CreaterId", "CreaterName");
@@ -64,6 +65,7 @@ namespace JC_Family.Controllers
         }
 
         // GET: PhotosManager/Edit/5
+        [Authorize]
         public ActionResult Edit(int? id)
         {
             if (id == null)
@@ -99,6 +101,7 @@ namespace JC_Family.Controllers
         }
 
         // GET: PhotosManager/Delete/5
+        [Authorize]
         public ActionResult Delete(int? id)
         {
             if (id == null)

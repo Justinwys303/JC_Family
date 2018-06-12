@@ -9,16 +9,16 @@ namespace JC_Family.Models
     {
         protected override void Seed(JC_FamilyDB context)
         {
-            context.Creaters.Add(new Creater { CreaterName = "Justin" });
-            context.Genres.Add(new Genre { Name = "Play" });
-            context.Photos.Add(new Photo
-            {
-                Creater = new Creater { CreaterName = "Cassie" },
-                Genre = new Genre { Name = "Study" },
-                CreatTime = DateTime.Now.ToString(),
-                Title = "Start"
-            });
-            base.Seed(context);
+            //context.Creaters.Add(new Creater { CreaterName = "Justin" });
+            //context.Genres.Add(new Genre { Name = "Play" });
+            //context.Photos.Add(new Photo
+            //{
+            //    Creater = new Creater { CreaterName = "Cassie" },
+            //    Genre = new Genre { Name = "Study" },
+            //    CreatTime = DateTime.Now.ToString(),
+            //    Title = "Start"
+            //});
+            //base.Seed(context);
         }
     }
 }
